@@ -12,6 +12,8 @@
    Global styles
    ========================================================================== */
 
+@import "compass";
+
 h1, h2, h3, h4, h5, h6, p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -381,17 +383,17 @@ a:hover {
 }
 
 .one {
-  background: url(../img/header1.jpg) no-repeat center center;
+  background: url(image_path('header1.jpg')) no-repeat center center;
   background-size: cover;
 }
 
 .two {
-  background: url(../img/header2.jpg) no-repeat center center;
+  background: url(image_path('header2.jpg')) no-repeat center center;
   background-size: cover;
 }
 
 .three {
-  background: url(../img/header3.jpg) no-repeat center center;
+  background: url(image_path('header3.jpg')) no-repeat center center;
   background-size: cover;
 }
 
@@ -418,7 +420,7 @@ a:hover {
 }
 
 #content2 {
-  background: url(../img/grid_noise.png) repeat;
+  background: url(image_path('grid_noise.png')) repeat;
   background-color: #ebebeb;
 }
 
@@ -836,7 +838,7 @@ select, input[type="text"], input[type="password"], input[type="datetime"], inpu
    Sign Up Page styles
    ========================================================================== */
 #signup {
-  background: url(../img/testimonial-bg.jpg) no-repeat;
+  background: url(image_path('testimonial-bg.jpg')) no-repeat;
   background-size: cover;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -847,7 +849,7 @@ select, input[type="text"], input[type="password"], input[type="datetime"], inpu
 } 
 
 .signup {
-  background: url(../img/grid_noise.png) repeat;
+  background: url(image_path('grid_noise.png')) repeat;
   background-color: #ebebeb;
   padding: 40px;
   margin-top: 22px;
@@ -924,7 +926,7 @@ ul.social-icons-signup li a:hover {
    Latest Work and Portfolio Styles
    ========================================================================== */
 #latest-work {
-  background: url(../img/grid_noise.png) repeat;
+  background: url(image_path('grid_noise.png')) repeat;
   background-color: #ebebeb;
 }
 
@@ -987,7 +989,7 @@ ul.icons li {
    Testimonial styles
    ========================================================================== */
 #testimonial {
-  background: url(../img/testimonial-bg.jpg) no-repeat;
+  background: url(image_path('testimonial-bg.jpg')) no-repeat;
   background-size: cover;
 }
 
