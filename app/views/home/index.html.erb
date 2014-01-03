@@ -56,7 +56,10 @@ Change your images in the main.css file.
             <div class="col-sm-12">
                 <h3>Sobre</h3>
                 <p class="lead">
-                    O que é - quem somos
+                    Quem somos / O que fazemos
+                </p>
+                <p>
+                    Somos um grupo que age de forma independente e que deseja espalhar a alegria em meio ao caos em que vivemos.
                 </p>
                 <p>
                     O Alegria no Caos desenvolve ações e projetos com o objetivo de transformar a nossa realidade, combatendo o caos instaurado em nosso meio, buscando um ambiente mais feliz, justo e melhor para se viver.
@@ -67,24 +70,111 @@ Change your images in the main.css file.
                 <p>
                     Não queremos apenas sonhar com crianças sorrindo, casais felizes e idosos contentes. Temos vontade de tornar isso uma realidade, hoje, aqui e agora.
                 </p>
-                <p>
-                    Somos um grupo de amigos... [criar texto -> Saldiba]
-                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!--Message Section-->
-<section id="message" class="section">
-    <div class="container">
-        <div class="row margin-40">
-            <div class="col-sm-12 text-center">
-                <h2>"[criar texto -> Frase de efeito] Ex: Nunca deu, quem deu do seu sem dar de si"</h2>
+<!--Testimonial Section-->
+<section id="testimonial" class="section slide animated fadeIn" data-ride="carousel" style="position: relative;">
+    <ol class="carousel-indicators">
+        <li data-target="#testimonial" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial" data-slide-to="1"></li>
+        <li data-target="#testimonial" data-slide-to="2"></li>
+        <li data-target="#testimonial" data-slide-to="3"></li>
+        <li data-target="#testimonial" data-slide-to="4"></li>
+    </ol>
+
+    <div class="carousel-inner">
+
+        <div class="item active">
+            <div class="container animated fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 margin-30">
+                            <%= image_tag("andre_saldiba_avatar.jpg", :class => "testimony-avatar") %>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h2>“Não podemos mudar o caos, mas podemos mudar um sorriso!”</h2>
+                            <div class="testimonial-source pull-right">André Saldiba</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+   
+        <div class="item">
+            <div class="container animated fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 margin-30">
+                            <%= image_tag("tiago_sciencia_avatar.jpg", :class => "testimony-avatar") %>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h2>“Nós levamos a ALEGRIA a sério!”</h2>
+                            <div class="testimonial-source pull-right">Tiago Sciência</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="container animated fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 margin-30">
+                            <%= image_tag("everton_alemao_avatar.jpg", :class => "testimony-avatar") %>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h2>“Queremos espalhar a ALEGRIA em meio ao caos em que vivemos!”</h2>
+                            <div class="testimonial-source pull-right">Everton Alemão</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <div class="container animated fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 margin-30">
+                            <%= image_tag("gabriel_morais_avatar.jpg", :class => "testimony-avatar") %>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h2>“A gente espalha ALEGRIA!”</h2>
+                            <div class="testimonial-source pull-right">Gabriel Morais</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <div class="item">
+            <div class="container animated fadeInUp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 margin-30">
+                            <%= image_tag("wagner_ribeiro_avatar.jpg", :class => "testimony-avatar") %>
+                        </div>
+
+                        <div class="col-sm-9">
+                            <h2>“A gente acredita na ALEGRIA!”</h2>
+                            <div class="testimonial-source pull-right">Wagner Ribeiro</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </section>
+
 
 <!--Latest News-->
 <section id="acoes" class="section">
@@ -114,17 +204,12 @@ Change your images in the main.css file.
     </div>
 </section>
 
-<!--Testimonial Section-->
-<section id="testimonial" class="section">
+<!--Message Section-->
+<section id="message" class="section">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3 margin-30">
-                <%= image_tag("tiago_sciencia_avatar.jpg", :class => "testimony-avatar") %>
-            </div>
-
-            <div class="col-sm-9">
-                <h2>“Lava has been an asset to our company by providing us with a cutting edge look and a web presence that shows off our work and skills.”</h2>
-                <div class="testimonial-source pull-right">Tiago Sciência | Co-founder</div>
+        <div class="row margin-40">
+            <div class="col-sm-12 text-center">
+                <h2>"..."</h2>
             </div>
         </div>
     </div>
