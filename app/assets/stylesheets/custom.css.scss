@@ -38,3 +38,35 @@ p.lead {
   border: solid 4px #fff;
   border-radius: 50%;
 }
+
+.section-60 {
+  padding: 60px 0;
+}
+
+/* ==========================================================================
+   Mobiles styles
+   ========================================================================== */
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  
+  .navbar-brand {
+    padding: 0;
+    margin: 10px;
+    
+    img { width: 60px; }
+  }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) { 
+
+  .navbar-brand {
+    padding: 0;
+    margin: 10px;
+    
+    img { width: 60px; }
+  }
+
+}

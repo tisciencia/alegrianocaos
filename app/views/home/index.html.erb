@@ -11,37 +11,37 @@ Change your images in the main.css file.
         <li data-target="#header" data-slide-to="2"></li>
     </ol>
     -->
-<div class="carousel-inner">
-    <div class="item one active">
-        <div class="container animated fadeInUp">
-            <div class="carousel-caption">
-                <h1>ALEGRIA NO CAOS</h1>
-                <p class="lead margin-40"><em class="banner-subtitle">Queremos espalhar a alegria em meio ao caos em que vivemos!</em></p>
-                <a class="btn-main scroll" href="#sobre"><i class="icon-chevron-right"></i> Saiba mais</a>
+    <div class="carousel-inner">
+        <div class="item one active">
+            <div class="container animated fadeInUp">
+                <div class="carousel-caption">
+                    <h1>ALEGRIA NO CAOS</h1>
+                    <p class="lead margin-40"><em class="banner-subtitle">Queremos espalhar a alegria em meio ao caos em que vivemos!</em></p>
+                    <a class="btn-main scroll" href="#sobre"><i class="icon-chevron-right"></i> Saiba mais</a>
+                </div>
             </div>
         </div>
+            <!--
+            <div class="item two">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Built With Bootstrap</h1>
+                        <p class="lead margin-40"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+                        <a class="btn-main" href="services.html"><i class="icon-chevron-right"></i> More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item three">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>100% Responsive</h1>
+                        <p class="lead margin-40"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+                        <a class="btn-main" href="pricing.html"><i class="icon-chevron-right"></i> More</a>
+                    </div>
+                </div>
+            </div>
+            -->
     </div>
-        <!--
-        <div class="item two">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Built With Bootstrap</h1>
-                    <p class="lead margin-40"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
-                    <a class="btn-main" href="services.html"><i class="icon-chevron-right"></i> More</a>
-                </div>
-            </div>
-        </div>
-        <div class="item three">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>100% Responsive</h1>
-                    <p class="lead margin-40"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
-                    <a class="btn-main" href="pricing.html"><i class="icon-chevron-right"></i> More</a>
-                </div>
-            </div>
-        </div>
-        -->
-</div>
     <!--
     <a class="left carousel-control hidden-xs" href="#header" data-slide="prev"><i class="fa fa-angle-left"></i></a>
     <a class="right carousel-control hidden-xs" href="#header" data-slide="next"><i class="fa fa-angle-right"></i></a>
@@ -53,10 +53,10 @@ Change your images in the main.css file.
 <section id="sobre" class="section">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-7">
                 <h3>Sobre</h3>
                 <p class="lead">
-                    Quem somos / O que fazemos
+                    Veja quem somos e o que fazemos
                 </p>
                 <p>
                     Somos um grupo que age de forma independente e que deseja espalhar a alegria em meio ao caos em que vivemos.
@@ -71,6 +71,59 @@ Change your images in the main.css file.
                     Não queremos apenas sonhar com crianças sorrindo, casais felizes e idosos contentes. Temos vontade de tornar isso uma realidade, hoje, aqui e agora.
                 </p>
             </div>
+            <div class="col-sm-5">                
+                <iframe width="100%" height="350" src="//www.youtube.com/embed/Yx5P-Z-gx38" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Message Section-->
+<section id="message" class="section section-60">
+    <div class="container">
+        <div class="row margin-40">
+            <div class="col-sm-12 text-center">
+                <h2>Não podemos mudar o caos, mas podemos mudar um sorriso!</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Latest News-->
+<section id="acoes" class="section">
+    <div class="container">
+        <div class="row margin-40">
+            <div class="col-sm-12 dark-gray">
+                <h3>Ações realizadas</h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 text-center">
+                <div class="latest-article">
+                    <%= image_tag("latest-news3.jpg", :class => "img-responsive") %>  
+                    <p>[20/12/2013 - Masp]</p>
+                    <p>
+                        Descrever o que foi a açao ... [Criar texto]
+                    </p>
+                    <br />
+                    <a class="more" href="http://goo.gl/3nYI0L" target="_blank"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
+                </div>
+            </div>
+            
+            <div class="col-sm-3 text-center">
+                <div class="latest-article">
+                    <%= image_tag("latest-news2.jpg", :class => "img-responsive") %>  
+                    <p>[25/01/2014 - Ceasa]</p>
+                    <p>
+                        Descrever o que foi a açao ... [Criar texto]
+                    </p>
+                    <br />
+                    <a class="more" href="http://goo.gl/3nYI0L" target="_blank"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -174,46 +227,7 @@ Change your images in the main.css file.
         
     </div>
 </section>
-
-
-<!--Latest News-->
-<section id="acoes" class="section">
-    <div class="container">
-        <div class="row margin-40">
-            <div class="col-sm-12 dark-gray">
-                <h3>Ações realizadas</h3>
-            </div>
-        </div>
-
-        <div class="row">
-
-            <!--News Article-->
-            <div class="col-sm-3 text-center">
-                <div class="latest-article">
-                    <%= image_tag("latest-news3.jpg", :class => "img-responsive") %>  
-                    <p>[20/12/2013 - Masp]</p>
-                    <p>
-                        Descrever o que foi a açao ... [Criar texto]
-                    </p>
-                    <br />
-                    <a class="more" href="http://goo.gl/3nYI0L" target="_blank"><i class="fa fa-chevron-circle-right fa-2x gray margin-20"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<!--Message Section-->
-<section id="message" class="section">
-    <div class="container">
-        <div class="row margin-40">
-            <div class="col-sm-12 text-center">
-                <h2>"..."</h2>
-            </div>
-        </div>
-    </div>
-</section>
+    
 
 <!--Services-->
 <section id="participe" class="section">
@@ -231,7 +245,7 @@ Change your images in the main.css file.
                 <a href="#">
                     <i class="fa fa-users fa-4x light-gray"></i>
                     <h3>Siga nas redes sociais</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p>Estamos no Facebook, Twitter, Instagram e Youtube. Acompanhe e fique por dentro das nossas ações e novidades em tempo real.</p>
                 </a>
             </div>
 
@@ -240,17 +254,17 @@ Change your images in the main.css file.
                 <a href="#">
                     <i class="fa fa-bell fa-4x light-gray"></i>
                     <h3>Fique ligado</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p>Não perca a oportunidade de participar dos próximos projetos. Cadastre-se e receba todas as informações em seu e-mail.</p>
                 </a>
             </div>
 
             <!--Seciton 3-->
             <div class="col-sm-4 service margin-30">
                 <a href="#">
-                    <i class="fa fa-money fa-4x light-gray"></i>
-                    <h3>Doe</h3>
+                    <i class="fa fa-thumbs-up fa-4x light-gray"></i>
+                    <h3>Colabore</h3>
                     <p>
-                        Procure um de nossos organizadores e veja como doar. Sua colaboração ajudará em nossas ações e projetos.
+                        Acreditamos que unir forças é indispensável para a continuação e ampliação de nossos projetos.
                     </p>
                 </a>
             </div>
