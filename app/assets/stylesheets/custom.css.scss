@@ -11,8 +11,12 @@
   background-color: orange;
 }
 
+.carousel .item {
+  height: 570px;
+}
+
 .one {
-  background: url(image_path('alegriacaos_banner.jpg')) no-repeat center center;
+  background: url(image_path('alegriacaos_banner_menor.jpg')) no-repeat center center;
   background-size: cover;
 }
 
