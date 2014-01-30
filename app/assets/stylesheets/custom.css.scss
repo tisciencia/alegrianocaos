@@ -16,7 +16,7 @@
 }
 
 .one {
-  background: url(image_path('alegriacaos_banner_menor.jpg')) no-repeat center center;
+  background: url(image_path('banner_alegrianocaos_full.jpg')) no-repeat center center;
   background-size: cover;
 }
 
@@ -27,6 +27,10 @@
 
 #header {
   padding-top: 91px;
+}
+
+#testimonial {
+  height: 400px;
 }
 
 h1 {
