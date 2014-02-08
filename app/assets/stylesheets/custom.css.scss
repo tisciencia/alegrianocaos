@@ -1,6 +1,30 @@
 .navbar-inverse {
   background-color: #fff;
-  border-color: #ff755a;
+  border-color: #000;
+  #border-color: #ff755a;
+}
+
+.img-logo {
+    margin: 20px auto;
+}
+
+.box-title {
+    width: 655px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.title {
+    font-size: 35px;
+    line-height: 40px;
+    font-family: HelveticaNeue;
+    font-weight: 300;
+    text-shadow: none;
+    color: #000;
+    text-transform: none;
 }
 
 .navbar .nav>li>a {
@@ -12,17 +36,18 @@
 }
 
 .carousel .item {
-  height: 570px;
+  height: 615px;
 }
 
 .one {
-  background: url(image_path('banner_alegrianocaos_full.jpg')) no-repeat center center;
+  background: url(image_path('banner_alegria_no_caos.jpg')) no-repeat center center;
   background-size: cover;
 }
 
 .navbar-brand {
   padding: 0;
-  margin: 0;
+  margin-left: -15px;
+  margin-top: 25px;
 }
 
 #header {
@@ -31,6 +56,10 @@
 
 #testimonial {
   height: 400px;
+}
+
+p.lead {
+  color: #000;
 }
 
 h1 {
@@ -66,7 +95,9 @@ p.lead {
     padding: 0;
     margin: 10px;
     
-    img { width: 60px; }
+    img { 
+        margin-top: 4px;
+    }
   }
 
     
@@ -83,7 +114,9 @@ p.lead {
     padding: 0;
     margin: 10px;
     
-    img { width: 60px; }
+    img { 
+        margin-top: 4px;
+    }
   }
 
   #header {
