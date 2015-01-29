@@ -1,9 +1,9 @@
-alegrianocaos
-=============
+Alegria no caos
+===============
 
 web site alegrianocaos - http://alegrianocaos.com.br/
 
-# Quem somos
+## Quem somos
 
 O Alegria no Caos desenvolve ações e projetos com o objetivo de transformar a nossa realidade, combatendo o caos instaurado em nosso meio, buscando um ambiente mais feliz, justo e melhor para se viver.
 
