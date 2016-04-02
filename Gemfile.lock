@@ -151,7 +151,6 @@ DEPENDENCIES
   font-awesome-rails
   heroku
   jquery-rails
-  pg
   puma
   rails (= 4.0.0)
   rails_12factor
